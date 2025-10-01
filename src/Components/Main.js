@@ -1,21 +1,21 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Nav from './Nav';
-import Home from '../Components/Home';
-import About from '../Components/About';
-import Contact from '../Components/Contact';
-import Shop from '../Components/Shop';
-import Prod from '../Components/Prod';
-import Footer from '../Components/Footer';
-import LandingPage from '../Pages/Landingpages';
-import Books from './Books';
-import Computers from './Computers';
-import Furnitures from './Furnitures';
-import Mens from './Mens';
-import Woman from './Woman';
-import Ac from './Ac';
-import ProductDetail from '../Components/ProductDetails';
-import Cart from '../Components/Cart'; 
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Nav from './Nav'
+import Home from '../Components/Home'
+import About from '../Components/About'
+import Contact from '../Components/Contact'
+import Shop from '../Components/Shop'
+import Prod from '../Components/Prod'
+import Footer from '../Components/Footer'
+import LandingPage from '../Pages/Landingpages'
+import Books from './Books'
+import Computers from './Computers'
+import Furnitures from './Furnitures'
+import Mens from './Mens'
+import Woman from './Woman'
+import Ac from './Ac'
+import ProductDetail from '../Components/ProductDetails'
+import Cart from '../Components/Cart';
 
 const Main = () => {
   return (

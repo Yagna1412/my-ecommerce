@@ -1,7 +1,5 @@
-import React from 'react';
-   import image from '../banner.png'; 
-   import '../custom.css'; 
-
+import React from 'react'
+import image from '../Banner/banner.jpg'
    function Bannerimg() {
      return (
        <div className='banner'>
@@ -11,7 +9,7 @@ import React from 'react';
            <p>Your one-stop destination for all your shopping needs</p>
          </div>
        </div>
-     );
+     )
    }
    
    export default Bannerimg;

@@ -1,7 +1,6 @@
-import React, { useContext } from "react";
-import { CartContext } from "./CreateContext";
-// import { useNavigate } from "react-router-dom";
-import { AcData, BookData, ComputerData, FurnitureData, MenswearData, WomanData } from "../Data";
+import React, { useContext } from "react"
+import { CartContext } from "./CreateContext"
+import { AcData, BookData, ComputerData, FurnitureData, MenswearData, WomanData } from "../Data"
 
 const featuredProducts = [
   ...AcData.slice(0, 2),      
@@ -13,7 +12,7 @@ const featuredProducts = [
 ];
 
 const Home = () => {
-  const { addToCart } = useContext(CartContext);
+  const { addToCart } = useContext(CartContext)
  
 
   const handleAddToCart = (product) => {
@@ -46,7 +45,6 @@ const Home = () => {
   );
 };
 
-// ✅ Inline CSS styles
 const styles = {
   container: {
     padding: "40px",
@@ -103,4 +101,4 @@ const styles = {
   },
 };
 
-export default Home;
+export default Home

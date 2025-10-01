@@ -1,5 +1,5 @@
 import React from 'react'
-import bannerImage from '../Banner/banner.png';
+import bannerImage from '../Banner/banner.jpg';
 
 
 const Landingpages = () => {

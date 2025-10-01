@@ -256,7 +256,7 @@ nav {
   width: 100%;
   height: auto;
   display: block;
-  object-fit: cover; /* Changed to cover for better full-width display */
+  object-fit: contain; 
   max-width: 100%;
 }
 
@@ -268,7 +268,7 @@ nav {
   color: #fff;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
   text-align: center;
-  display: none; /* Hidden to show full banner image */
+  display: none; 
 }
 
 .banner-text h1 {

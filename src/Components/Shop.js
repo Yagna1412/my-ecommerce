@@ -15,8 +15,7 @@ const Shop = () => {
   const { addToCart } = useContext(CartContext);
 
   const handleAddToCart = (product) => {
-    addToCart(product); // ✅ Adds product to cart
-    // DO NOT navigate anywhere
+    addToCart(product); 
   };
 
   return (

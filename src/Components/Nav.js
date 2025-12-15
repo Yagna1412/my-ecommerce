@@ -16,7 +16,7 @@ const Nav = () => {
         <li><Link to="/home">Home</Link></li>
         <li><Link to="/about">About</Link></li>
 
-        {/* Contact Menu */}
+      
         <li
           className="contact-link"
           onMouseEnter={() => setHoveredMenu("contact")}
@@ -31,8 +31,6 @@ const Nav = () => {
             </div>
           )}
         </li>
-
-        {/* Shop Dropdown */}
         <li
           className="shop-link"
           onMouseEnter={() => setHoveredMenu("shop")}
@@ -50,25 +48,11 @@ const Nav = () => {
             </div>
           )}
         </li>
-
-        {/* Cart Section */}
         <li className="cart-link">
           <Link to="/cart" className="cart-btn">
             🛒 Cart
             {cartItemCount > 0 && <span className="cart-count">{cartItemCount}</span>}
           </Link>
-
-          {/* {showNotification && lastAddedProduct && (
-            <div className="cart-notification">
-              <p>Added to cart!</p>
-              <div className="notification-product">
-                <div>
-                  <p>{lastAddedProduct.model || lastAddedProduct.title || lastAddedProduct.type}</p>
-                  <p>₹{lastAddedProduct.price}</p>
-                </div>
-              </div>
-            </div>
-          )} */}
         </li>
       </ul>
     </nav>

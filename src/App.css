@@ -192,7 +192,7 @@ nav {
 
 .main-content {
   flex: 1; 
-  padding: 0; /* REMOVED PADDING FOR FULL WIDTH BANNER */
+  padding: 0; 
 }
 
 .footer {
@@ -238,27 +238,23 @@ nav {
 
 .landing-content {
   text-align: center;
-  padding: 0; /* REMOVED PADDING FOR FULL WIDTH BANNER */
+  padding: 0; 
 }
-
-/* FULL WIDTH BANNER - NO CUTTING */
 .banner {
   position: relative;
-  width: 100%;
-  max-width: 100%;
+  width: 109vw; 
   height: auto;
   overflow: hidden;
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
+}
+banner img {
+  width: 100%;
+  height: 80vh; 
+  object-fit: cover;
+  object-position: center;
 }
 
-.banner img {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: contain; 
-  max-width: 100%;
-}
 
 .banner-text {
   position: absolute;
@@ -599,4 +595,20 @@ nav {
   font-weight: bold;
   border-radius: 50%;
   padding: 2px 6px;
+}
+.shop-link .contact-popup {
+   position: absolute; 
+  top: 100%; 
+  right: 0;  
+
+  background-color: #fff;
+  color: #1a1a1a;
+  /* padding: 1px 10px;
+  border-radius: 1px; */
+  /* box-shadow: 0px 4px 12px rgba(0,0,0,0.15); */
+  white-space: nowrap;
+  /* z-index: 100; */
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
 }
